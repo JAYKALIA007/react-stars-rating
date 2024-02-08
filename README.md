@@ -14,6 +14,9 @@ Easily integrate this library to enable users to rate content with a visually ap
 - Hover effect: Stars change background color on hover.
 
 
+[Watch in action](https://imgur.com/vTx6HUN)
+
+
 ## Usage
 ### Install
 ```sh
