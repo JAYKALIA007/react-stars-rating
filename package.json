@@ -1,13 +1,20 @@
 {
   "name": "react-stars-ratings",
-  "version": "1.0.0",
-  "description":"Add star ratings component to your React applications",
+  "version": "1.0.1",
+  "description": "Add star ratings component to your React applications",
   "author": "Jay Kalia",
-  "keywords": ["react", "stars-ratings", "react-stars-ratings"],
+  "keywords": [
+    "react",
+    "stars-ratings",
+    "react-stars-ratings"
+  ],
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "files": [ "dist", "README.md" ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.17.0",
