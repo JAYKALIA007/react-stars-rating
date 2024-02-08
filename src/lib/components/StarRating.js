@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Star } from './Star';
+import Star from './Star';
 const StarRating  = () =>{
   const [ selectedStars, setSelectedStars ] = useState(1)
   const [ hoveredStars, setHoveredStars ] = useState(0)
