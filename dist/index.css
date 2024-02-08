@@ -1,9 +1,11 @@
 .star-icon {
-    --icon-size: 32px;
-    height: var(--icon-size);
-    width: var(--icon-size);
-  }
-  
+  --icon-size: 32px;
+  height: var(--icon-size);
+  width: var(--icon-size);
+}
+.star-icon:hover{
+  cursor: pointer;
+}
 .star-icon-filled {
-    fill: yellow;
+  fill: yellow;
 }
