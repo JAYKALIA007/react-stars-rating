@@ -1,2 +1,3 @@
 import  StarRating  from "./components/StarRating";
-export { StarRating }
+import Button from './components/Button';
+export { StarRating, Button };
