@@ -1,6 +1,6 @@
 import '../index.css'
 import React from 'react'
-export default function Star ({isFilled}) {
+const Star  = ({isFilled}) => {
     return (
       <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -17,3 +17,5 @@ export default function Star ({isFilled}) {
         </svg>
     )
   }
+
+  export default Star;
