@@ -9,15 +9,22 @@ var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Star = _ref => {
   let {
-    isFilled
+    isFilled,
+    borderColor,
+    fill,
+    iconSize
   } = _ref;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
-    className: "star-icon ".concat(isFilled && 'star-icon-filled'),
+    className: "star-icon",
     fill: "none",
     viewBox: "0 0 24 24",
-    stroke: "currentColor",
-    strokeWidth: "2"
+    stroke: Boolean(borderColor) ? borderColor : "currentColor",
+    strokeWidth: "2",
+    style: {
+      fill: isFilled && fill,
+      "--icon-size": iconSize
+    }
   }, /*#__PURE__*/_react.default.createElement("path", {
     strokeLinecap: "round",
     strokeLinejoin: "round",
