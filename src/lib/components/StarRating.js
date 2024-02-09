@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 import Star from './Star';
-const StarRating  = () =>{
+export const StarRating  = () =>{
   const [ selectedStars, setSelectedStars ] = useState(1)
   const [ hoveredStars, setHoveredStars ] = useState(0)
-
 
   return (
     <div>
@@ -22,5 +21,3 @@ const StarRating  = () =>{
     </div>
   );
 }
-
-export default StarRating;

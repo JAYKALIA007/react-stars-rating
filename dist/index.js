@@ -6,8 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 Object.defineProperty(exports, "StarRating", {
   enumerable: true,
   get: function get() {
-    return _StarRating.default;
+    return _StarRating.StarRating;
   }
 });
-var _StarRating = _interopRequireDefault(require("./components/StarRating"));
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _StarRating = require("./components/StarRating");

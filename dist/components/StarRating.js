@@ -4,7 +4,7 @@ require("core-js/modules/es.weak-map.js");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = void 0;
+exports.StarRating = void 0;
 require("core-js/modules/web.dom-collections.iterator.js");
 var _react = _interopRequireWildcard(require("react"));
 var _Star = _interopRequireDefault(require("./Star"));
@@ -23,4 +23,4 @@ const StarRating = () => {
     isFilled: hoveredStars > 0 ? index < hoveredStars : index < selectedStars
   }))));
 };
-var _default = exports.default = StarRating;
+exports.StarRating = StarRating;
