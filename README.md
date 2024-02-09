@@ -12,6 +12,7 @@ Easily integrate this library to enable users to rate content with a visually ap
 
 - Click to select: Clicking on a star sets it as the selected rating.
 - Hover effect: Stars change background color on hover.
+- Control how the stars appear by passing in appropriate props.
 
 
 [Watch in action](https://imgur.com/vTx6HUN)
@@ -20,7 +21,7 @@ Easily integrate this library to enable users to rate content with a visually ap
 ## Usage
 ### Install
 ```sh
-$ npm install react-stars-ratings --save
+$ npm install react-stars-ratings
 ```
 or 
 ```sh
@@ -35,13 +36,17 @@ import { StarRating } from 'react-stars-ratings';
 import React from 'react';
 import { StarRating } from 'react-stars-ratings';
 
-class MyComponent extends React.Component {
-  render() {
-    return (
-      <StarRating />
-    );
-  }
+const MyComponent = () => {
+  return (
+    <StarRating />
+  );
 }
-
-React.render(<MyComponent />, document.getElementById('app'));
 ```
+
+## PropTypes
+
+| Prop Name     | Type     | Default                   | Required | Description                                                                             |
+|---------------|----------|---------------------------|----------|-----------------------------------------------------------------------------------------|
+| iconSize      | String   | 32px                      | false    | the size of the stars                                                                   | 
+| borderColor   | String   | black                     | false    | the border color of the star svg icon                                                   |
+| fill          | String   | yellow                    | false    | the fill(background-color) of the star svg icon                                         |
