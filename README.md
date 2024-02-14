@@ -50,3 +50,7 @@ const MyComponent = () => {
 | iconSize      | String   | 32px                      | false    | the size of the stars                                                                   | 
 | borderColor   | String   | black                     | false    | the border color of the star svg icon                                                   |
 | fill          | String   | yellow                    | false    | the fill(background-color) of the star svg icon                                         |
+
+
+## Open source
+Feel free to use and modify the package according to your needs. If you encounter any issues or have suggestions for improvement, please open an issue on the GitHub repository.
